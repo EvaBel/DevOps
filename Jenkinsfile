@@ -5,7 +5,7 @@ pipeline {
         stage('Git') {
            steps {
         script {
-            git branch: 'main', url: 'https://github.com/EvaBel/DevOps.git'
+            git branch: 'master', url: 'https://github.com/EvaBel/DevOps.git'
         }
     }
         }
